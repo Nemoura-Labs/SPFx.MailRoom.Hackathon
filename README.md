@@ -1,39 +1,25 @@
-# SPFx Mail Room — SharePoint Hackathon 2026 Submission
+# SPFx Mail Room — Hackathon submission
 
-This repository is for the **SharePoint Hackathon 2026** submission: **presentation**, **video**, and **supporting materials**. It does **not** contain the application source code.
+This repository is for the **hackathon submission, presentation, and video** — not the application code.
 
----
-
-## Presentation & video
-
-- **Gamma presentation:** [SPFx Mail Room — AI-powered document classification](https://copy-of-spfx-foundry-age-pjnsi8u.gamma.site/)
+- **Presentation:** [SPFx Mail Room — AI-powered document classification (Gamma)](https://copy-of-spfx-foundry-age-pjnsi8u.gamma.site/)
 - **Video:** *(to be added — 8 min max per hackathon rules)*
+- **Source code:** SPFx Mail Room (separate repo — private for the moment)
 
 ---
 
 ## What is SPFx Mail Room?
 
-**SPFx Mail Room** is an AI-powered document classification app for SharePoint and Teams. One generic app for many use cases — deploy once per site or department.
+**AI-powered document classification in SharePoint and Teams.**
 
-- **Documents** → **Incoming Documents library** → **AI (Logic App + Azure AI Foundry agent)** → **Mail Room list** → **User validation**
-- All lists and libraries (Client list, Project list, Mail Room list, Incoming Documents library) are **autoprovisioned** on deploy.
-- **Multiple entry points:** SPFx UI (manual or batch), Power Automate (mailbox attachments), or Scanner/MFD — same library, one AI pipeline.
-- **Multi-surface:** Same app on **SharePoint** (pages) and **Teams** (desktop and mobile). Same behavior, different surfaces.
-- **Group workflow:** First verification (adjust AI suggestion) → Deadline step (optional deadlines, reminders, mailbox sync) → Final validation → document classified into the right SharePoint library folder.
-- **Generic:** Map "Client" and "Project" to your domain (e.g. Legal: client/case; HR: employee/request; Marketing: brand/campaign). Deploy once, use everywhere.
+One app runs on **SharePoint pages** and **Teams** (desktop and mobile). Documents enter via the app, Power Automate (mailbox), or a scanner → **Incoming Documents library** → **Logic App + Azure AI Foundry agent** (Azure Search over clients and projects) → **Mail Room list** with AI prefill → **user validation** (classification, optional deadlines, final validation) → document filed in the right SharePoint library folder.
 
-**In short:** AI suggests, human validates — one app, many deployments.
+- **The problem:** Manual classification is slow; no single place; workflow scattered; repeated setup per department.
+- **The solution:** One generic app — Client list, Project list, Mail Room list, Incoming Documents library, all **autoprovisioned** on deploy. Multiple entry points (app, email, scanner), one pipeline. **Group workflow** (first verification → deadline step → final validation). **Deadlines and reminders** with mailbox sync. Map "Client" and "Project" to your domain (Legal, HR, Marketing, etc.) — deploy once, use everywhere.
+- **In short:** AI suggests, human validates — one app, many deployments.
 
----
-
-## Hackathon categories
-
-- **Best use of SharePoint in AI agents** — SharePoint as surface and context; agents meet content where work happens.
-- **Most innovative SPFx experience** — Reusable, multi-surface, plug-and-play, no extra infrastructure.
-- **Best mobile experience** — Full Mail Room on Teams mobile, touch-first.
+**Categories:** Best use of SharePoint in AI agents · Most innovative SPFx experience · Best mobile experience.
 
 ---
 
-*Submitted for [SharePoint Hackathon 2026](https://github.com/SharePoint/sharepoint-hackathon).*
-
-*Nemoura Labs · [Youssef El Garmit](https://www.linkedin.com/in/youssefelgarmit/)*
+*By [Némoura](https://nemoura.com) · [Youssef El Garmit](https://www.linkedin.com/in/youssefelgarmit/)*
