@@ -3,8 +3,7 @@
 This repository is for the **hackathon submission, presentation, and video** — not the application code.
 
 - **Presentation:** [SPFx Mail Room — AI-powered document classification (Gamma)](https://copy-of-spfx-foundry-age-pjnsi8u.gamma.site/)
-- **Video:** *(to be added — 8 min max per hackathon rules)*
-- **Source code:** SPFx Mail Room (separate repo — private for the moment)
+- **Source code:** SPFx Mail Room (separate repo — private)
 
 ---
 
