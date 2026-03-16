@@ -1,5 +1,7 @@
 # SPFx Mail Room — Hackathon submission
 
+![SPFx Mail Room Cover](https://www.nemoura.com/wp-content/uploads/assets/microsoft/spfx-mailroom-cover.jpg)
+
 This repository is for the **hackathon submission, presentation, and video** — not the application code.
 
 - **Presentation:** [SPFx Mail Room — AI-powered document classification (Gamma)](https://copy-of-spfx-foundry-age-pjnsi8u.gamma.site/)
