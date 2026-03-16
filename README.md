@@ -5,6 +5,7 @@
 This repository is for the **hackathon submission, presentation, and video** — not the application code.
 
 - **Presentation:** [SPFx Mail Room — AI-powered document classification (Gamma)](https://copy-of-spfx-foundry-age-pjnsi8u.gamma.site/)
+- **Video:** [SPFx Mail Room - How to Build an AI-Powered Document Classification in SharePoint & Microsoft Teams](https://youtu.be/F4psWQEmX-c)
 - **Source code:** SPFx Mail Room (separate repo — private)
 
 ---
